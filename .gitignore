@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Generated data
+database/*.db
+uploads/*
+!uploads/.gitkeep
+data/processed/*
+
+# macOS
+.DS_Store
