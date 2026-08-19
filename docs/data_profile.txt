@@ -1,0 +1,169 @@
+Found 3 CSV file(s).
+
+================================================================================
+FILE: source1_naukri_applicants.csv
+================================================================================
+Rows: 42
+Columns: 8
+
+COLUMN NAMES
+ 1. Full Name
+ 2. Email
+ 3. Phone
+ 4. City
+ 5. Experience (Years)
+ 6. Current CTC
+ 7. Applied Date
+ 8. Skills
+
+MISSING VALUES
+Full Name                         0 missing (  0.00%)
+Email                             0 missing (  0.00%)
+Phone                             0 missing (  0.00%)
+City                              0 missing (  0.00%)
+Experience (Years)                0 missing (  0.00%)
+Current CTC                       0 missing (  0.00%)
+Applied Date                      0 missing (  0.00%)
+Skills                            0 missing (  0.00%)
+
+Exact duplicate rows: 0
+
+UNIQUE VALUE COUNTS
+Full Name                      41
+Email                          41
+Phone                          40
+City                           16
+Experience (Years)             28
+Current CTC                    38
+Applied Date                   37
+Skills                         40
+
+WHITESPACE ISSUES
+City: 5 value(s) contain outer whitespace
+  Examples: ['gurugram ', 'Noida ', 'Noida ']
+
+POSSIBLE DUPLICATES IN IDENTITY COLUMNS
+
+Full Name:
+Full Name
+nikhil chopra    2
+
+Email:
+Email
+rohit.verma13@mailtest.example.org    2
+
+Phone:
+Phone
+9000000294     2
+09000000103    2
+
+FIRST FIVE ROWS
+    Full Name                              Email         Phone      City Experience (Years) Current CTC Applied Date                                              Skills
+  Tanvi Gupta          tanvi.gupta31@example.com +919000000254 Bengaluru                4.2      417964   24-07-2026             n8n, LangChain, REST APIs, MongoDB, SQL
+ Manish Reddy         manish.reddy73@example.com    9000000237   GURGAON                3.5      332456   2026-08-08                          Docker, Zapier, JavaScript
+  Priya Singh priya.singh61@mailtest.example.org   09000000287   GURGAON                3.0      775670   01-08-2026              React, Zapier, n8n, MySQL, Python, SQL
+Vikram Saxena        vikram.saxena60@example.com    9000000113   GURGAON                1.9      654699   7 Jul 2026 Selenium, Web Scraping, React, Docker, SQL, FastAPI
+ Amit Agarwal amit.agarwal3@mailtest.example.org +919000000288      pune                1.8         4.2   19-07-2026                     SQL, Python, JavaScript, Docker
+
+================================================================================
+FILE: source2_gig_workers.csv
+================================================================================
+Rows: 32
+Columns: 6
+
+COLUMN NAMES
+ 1. email_id
+ 2. worker_name
+ 3. rate
+ 4. location
+ 5. status
+ 6. skill_tags
+
+MISSING VALUES
+email_id                          1 missing (  3.12%)
+worker_name                       1 missing (  3.12%)
+rate                              1 missing (  3.12%)
+location                          1 missing (  3.12%)
+status                            1 missing (  3.12%)
+skill_tags                        1 missing (  3.12%)
+
+Exact duplicate rows: 0
+
+UNIQUE VALUE COUNTS
+email_id                       31
+worker_name                    30
+rate                           30
+location                       14
+status                         6
+skill_tags                     31
+
+WHITESPACE ISSUES
+location: 5 value(s) contain outer whitespace
+  Examples: ['Noida ', 'gurugram ', 'gurugram ']
+
+POSSIBLE DUPLICATES IN IDENTITY COLUMNS
+
+email_id:
+  No repeated normalized values.
+
+worker_name:
+worker_name
+deepak nair    2
+
+FIRST FIVE ROWS
+                           email_id   worker_name      rate location status                                               skill_tags
+           varun.jain29@example.com    Varun Jain   1415/hr     Pune Active       n8n, web scraping, fastapi, mysql, pandas, mongodb
+         tanvi.agarwal97@example.in Tanvi Agarwal   1231/hr     PUNE Active                mongodb, rest apis, fastapi, web scraping
+karan.bhatia32@mailtest.example.org  Karan Bhatia    403/hr   Noida  active sql, mongodb, selenium, zapier, web scraping, javascript
+         arjun.mishra70@example.com  Arjun Mishra    440/hr    Delhi ACTIVE                                react, docker, javascript
+          isha.kapoor54@example.com   Isha Kapoor 15k/month    Delhi active      fastapi, python, javascript, selenium, react, mysql
+
+================================================================================
+FILE: source3_cbnexus_contacts.csv
+================================================================================
+Rows: 31
+Columns: 5
+
+COLUMN NAMES
+ 1. Name
+ 2. Phone Number
+ 3. City
+ 4. Verified
+ 5. Projects Completed
+
+MISSING VALUES
+Name                              0 missing (  0.00%)
+Phone Number                      0 missing (  0.00%)
+City                              0 missing (  0.00%)
+Verified                          0 missing (  0.00%)
+Projects Completed                0 missing (  0.00%)
+
+Exact duplicate rows: 0
+
+UNIQUE VALUE COUNTS
+Name                           30
+Phone Number                   31
+City                           15
+Verified                       6
+Projects Completed             16
+
+WHITESPACE ISSUES
+City: 4 value(s) contain outer whitespace
+  Examples: ['Noida ', 'gurugram ', 'Noida ']
+
+POSSIBLE DUPLICATES IN IDENTITY COLUMNS
+
+Name:
+Name
+arjun mehta    2
+
+Phone Number:
+  No repeated normalized values.
+
+FIRST FIVE ROWS
+        Name   Phone Number      City Verified Projects Completed
+  Rohit Nair     9000000268   Gurgaon        Y                 13
+ RITU SHARMA     9000000146    Noida       yes                 15
+Priya Saxena   919000000231 New Delhi       No                 12
+ Arjun Mehta +91-9000000131     Noida       No                  9
+Nikhil Mehta +91-9000000104      pune        Y                 10
